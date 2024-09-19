@@ -1,0 +1,222 @@
+/* Landing page start */
+
+.navi{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 1.5% 0% 1.5% 0%;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.navi{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.navi ul li{
+    display: inline;
+    margin-right: 5%;
+    cursor: pointer;
+}
+.navi ul li:hover{
+    cursor: pointer;
+    color: #f2632e;
+}
+.navi ul li span{
+   color: #f2632e;
+}
+.backimg{
+    background-image: url('https://img.freepik.com/free-photo/beautiful-engagement-ring-with-diamonds_23-2149509267.jpg?t=st=1709133682~exp=1709137282~hmac=4be6ef1f3e6ed828d5ba4c6c6d278b92d3c08cc96f451a6187f5d676fc6c0cc5&w=740');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.abtring{
+    padding-top: 6%;
+    padding-left: 2%;
+}
+.abtring h4{
+    font-size: 15px;
+}
+.abtring h2{
+    font-size: 60px;
+    font-family: serif;
+}
+.abtring p{
+    font-size: 16px;
+}
+.butn{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-style: none;
+}
+.butn:hover{
+    color: white;
+    background-color: orangered;
+}
+.trending{
+    padding-top: 70px;
+}
+.trendingprdcts{
+    text-align: center;
+}
+.trendingprdcts h4{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.692);
+}
+.trendingprdcts h2{
+     font-size: 45px;
+     text-decoration: none;
+     font-family: serif;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 20px;
+}
+.productname{
+    text-align: center;
+    padding-top: 20px;
+}
+.productname h4{
+    font-size: 25px;
+    font-family: serif;
+    text-decoration: none; 
+}
+.productname p{
+   font-size: 18px;
+}
+del{
+    color: rgba(0, 0, 0, 0.733);
+}
+.shop{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.bestsell{
+    text-align: center;
+    padding-top: 50px;
+}
+.bestsell h4{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.692);
+}
+.bestsell h2{
+     font-size: 45px;
+     text-decoration: none;
+     font-family: serif;
+     color: rgba(0, 0, 0, 0.897);
+}
+.desc{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.desc h4{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.911);
+}
+.desc h2{
+    font-size: 43px;
+     text-decoration: none;
+     font-family: serif;
+     color: rgba(0, 0, 0, 0.897);
+}
+.desc p{
+    color: rgba(0, 0, 0, 0.582);
+}
+.twopartndtop{
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+}
+.btnshop{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-style: none;
+}
+.btnshop:hover{
+    color: white;
+    background-color: orangered;
+}
+.top{
+text-align: center;
+padding-top: 40px;
+}
+.top h4{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.685);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top h2{
+    font-size: 50px;
+    font-family: serif;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: normal;
+}
+.top p{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.61);
+    font-family: serif;
+    text-align-last: center;
+}
+.imgdesc{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+.imgdesc h4{
+    padding-top: 15px;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.815);
+}
+.imgdesc p{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.767);
+}
+.footer-section{
+    background-color: rgba(128, 128, 128, 0.068);
+}
+
+.leftdescandrightimg{
+    padding-top: 5%;
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.left h4{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.699);
+}
+.left h2{
+    font-size: 40px;
+    font-family: serif;
+}
+.left h3{
+    font-size: 23px;
+    color: rgba(0, 0, 0, 0.753);
+    font-family: serif;
+}
+.left p{
+    font-size: 16px;
+}
+
+/* Landing page end */
